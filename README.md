@@ -43,3 +43,15 @@ Built and maintained by [**Jupitec GmbH**](https://jupitec.de) — IT infrastruc
 <p align="center">
   <sub>© Jupitec GmbH · <a href="https://jupitec.de/impressum">Impressum</a> · <a href="https://jupitec.de/datenschutz">Datenschutz</a></sub>
 </p>
+
+## Lumia agent (os-lumia)
+
+The Lumia RMM agent for OPNsense, from the same repository:
+
+```sh
+pkg install os-lumia
+```
+
+Then **Services → Lumia**: server URL, management mode (defaults to monitor-only),
+one-time enrolment token. Works identically on Community and Business Edition.
+Source and documentation: https://github.com/bgimed/Monitoring/tree/main/opnsense-plugin
